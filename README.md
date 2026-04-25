@@ -22,6 +22,7 @@ This adaptation:
 - Preserves character names and plot logic (Nick Harris, Maya Lundberg, Adrien Joyce, John Hammond, Baron von Drax, Sherman Fosdick, Spartacus / X-1).
 - Adds interiority, sensory detail, and emotional texture that screenplays don't carry.
 - Includes 78 scene illustrations and 9 looping animated WebP action clips.
+- Has a [glossary](./glossary/) covering 45 terms across 6 categories (characters, raptors, creatures, locations, organizations, concepts) with inline tooltips on first mention in each chapter.
 - Does **not** include the original Sayles screenplay text.
 
 ## Repo layout
