@@ -4,13 +4,15 @@
 >
 > **This is a non-profit fan-fiction project. I do not own *Jurassic Park* or the John Sayles script. All rights belong to Universal Pictures. This is a transformative work of prose based on unproduced concepts.**
 >
-> No money is being made from this project. No part of the original screenplay is hosted in this repository — only original prose written as a fan adaptation. If a rights-holder wants the project taken down, contact the maintainer and it will be removed.
+> No money is being made from this project. The original John Sayles screenplay is **not** hosted in this repository — only original prose written as a fan adaptation. If a rights-holder wants the project taken down, contact the maintainer and it will be removed.
 >
 > "Grendel" was the codename for the genetically-engineered hybrids in the unproduced 2004 John Sayles draft. This webnovel adaptation is independent prose inspired by that draft.
 
 ---
 
-## What this is
+## Read it
+
+📖 **Live at: https://dknos.github.io/Project-Grendel-A-JP4-Fan-WebNovel/**
 
 A 22-chapter prose adaptation of John Sayles's unproduced 2004 *Jurassic Park IV* screenplay. The Sayles draft is well-known among fans as the never-made "trained super-raptor mercenary squad" version of the franchise — a darker, weirder, more cynical thriller than what was eventually produced.
 
@@ -19,36 +21,21 @@ This adaptation:
 - Renders the screenplay's beats as prose in a grounded literary-thriller register.
 - Preserves character names and plot logic (Nick Harris, Maya Lundberg, Adrien Joyce, John Hammond, Baron von Drax, Sherman Fosdick, Spartacus / X-1).
 - Adds interiority, sensory detail, and emotional texture that screenplays don't carry.
-- Does **not** include the original Sayles screenplay text. Only original prose written as fan adaptation.
+- Includes 78 scene illustrations and 9 looping animated WebP action clips.
+- Does **not** include the original Sayles screenplay text.
 
-## Read it
+## Repo layout
 
-Chapters are in [`chapters/`](./chapters/). GitHub renders Markdown natively — click through.
+This repo is the GitHub Pages source for the rendered webnovel:
 
-| # | Chapter |
-|---|---------|
-| 1 | [The Saturday Error](./chapters/chapter-001.md) |
-| 2 | [The Aviary Exile](./chapters/chapter-002.md) |
-| 3 | [The Nublar Drop](./chapters/chapter-003.md) |
-| 4 | [The Diggers](./chapters/chapter-004.md) |
-| 5 | [The Hatch and the Fluke](./chapters/chapter-005.md) |
-| 6 | [The Freefall](./chapters/chapter-006.md) |
-| 7 | [The Mercenary's Keep](./chapters/chapter-007.md) |
-| 8 | [The Alpha Male](./chapters/chapter-008.md) |
-| 9 | [The Ambush Protocol](./chapters/chapter-009.md) |
-| 10 | [The Daddy Drug](./chapters/chapter-010.md) |
-| 11 | [The Baron's Table](./chapters/chapter-011.md) |
-| 12 | [The Conversation of Death](./chapters/chapter-012.md) |
-| 13 | [The Naming of the Dead](./chapters/chapter-013.md) |
-| 14 | [The Scent of the Target](./chapters/chapter-014.md) |
-| 15 | [The Tangier Drop](./chapters/chapter-015.md) |
-| 16 | [The Olive Oil Slaughter](./chapters/chapter-016.md) |
-| 17 | [The Escalation](./chapters/chapter-017.md) |
-| 18 | [The Berserker](./chapters/chapter-018.md) |
-| 19 | [The Crossbow and the Deal](./chapters/chapter-019.md) |
-| 20 | [The Jungle Drop](./chapters/chapter-020.md) |
-| 21 | [The Cartel Massacre](./chapters/chapter-021.md) |
-| 22 | [The Broken Leash](./chapters/chapter-022.md) |
+```
+/                    — landing page (TOC) / index.html
+/chapter-XXX/        — individual chapters
+/static/             — CSS, JS, fonts (from web-novel-static-generator)
+/images/chapter-XXX/ — scene stills + animated action clips (WebP)
+```
+
+Built with [`web-novel-static-generator`](https://github.com/Oekaki-Connect/web-novel-static-generator) (via the [GUI fork](https://github.com/dknos/web-novel-static-generator-GUI)).
 
 ## On licensing
 
@@ -71,7 +58,8 @@ If you are a representative of a rights-holder and want this taken down, please 
 
 - **Original screenplay**: John Sayles (unproduced 2004 *Jurassic Park IV* draft)
 - **Franchise**: *Jurassic Park* © Universal Pictures, based on the novel by Michael Crichton
-- **Prose adaptation**: drivenemo (this repo)
+- **Static site generator**: [Oekaki-Connect/web-novel-static-generator](https://github.com/Oekaki-Connect/web-novel-static-generator) (GUI fork: [dknos/web-novel-static-generator-GUI](https://github.com/dknos/web-novel-static-generator-GUI))
+- **Prose adaptation, illustrations, action clips**: drivenemo (this repo)
 
 ---
 
