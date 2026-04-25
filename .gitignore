@@ -1,0 +1,14 @@
+# Never commit the original screenplay or any rights-holder material
+*.pdf
+TheLostWorld*.txt
+*Sayles*.pdf
+*JurassicPark4*.pdf
+New?Text?Document.txt
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
